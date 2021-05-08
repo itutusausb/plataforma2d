@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class FruitManager : MonoBehaviour
 {
+    private void Update()
+    {
+        AllfruitCollected();
+    }
     public void AllfruitCollected()
     {
-        if (transform.childCount == 1)
+        if (transform.childCount == 0)
         {
             Debug.Log("No hay mas frutas");
         }
