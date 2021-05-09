@@ -1220,3 +1220,25 @@ Received Import Request.
 Start importing Assets/Animation/Fondo.anim using Guid(6bb9c47e71c90174e9ea710a19e7a598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f34bae4de2b1ca20e92f9df60c705d') in 0.002725 seconds
   Import took 0.006314 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 1.782500 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.533600 ms  DeleteObjects: 0.015100 ms)
+
