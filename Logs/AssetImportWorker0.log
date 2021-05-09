@@ -140,3 +140,115 @@ System memory in use after: 84.6 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2273.
 Total: 2.114800 ms (FindLiveObjects: 0.276100 ms CreateObjectMapping: 0.132300 ms MarkObjects: 1.680500 ms  DeleteObjects: 0.024000 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 2.199700 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.945000 ms  DeleteObjects: 0.039800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 556.620103 seconds.
+  path: Assets/Animation/Frog/Double Jump (32x32)_0.controller
+  artifactKey: Guid(93051f02b16af254aaf73d0e1aeb3358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Frog/Double Jump (32x32)_0.controller using Guid(93051f02b16af254aaf73d0e1aeb3358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef5fb977a8cde9f1e2845454b938846') in 0.013055 seconds
+  Import took 0.015827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.650350 seconds.
+  path: Assets/Animation/Frog/Fall (32x32).controller
+  artifactKey: Guid(8ba2149734145c648bf5d47e42c4ab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Frog/Fall (32x32).controller using Guid(8ba2149734145c648bf5d47e42c4ab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb989ec49d082abd43a0db30ee3154ff') in 0.002811 seconds
+  Import took 0.006903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Animation/Frog/Fall (32x32).controller
+  artifactKey: Guid(8ba2149734145c648bf5d47e42c4ab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Frog/Fall (32x32).controller using Guid(8ba2149734145c648bf5d47e42c4ab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb989ec49d082abd43a0db30ee3154ff') in 0.002302 seconds
+  Import took 0.005400 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 4.977300 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.034600 ms MarkObjects: 4.749700 ms  DeleteObjects: 0.055400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 1.894800 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.627300 ms  DeleteObjects: 0.035200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 1.672600 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.506700 ms  DeleteObjects: 0.015800 ms)
+
