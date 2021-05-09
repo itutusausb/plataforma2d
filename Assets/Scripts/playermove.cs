@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class playermove : MonoBehaviour
 {
     public float runSpeed = 2;
@@ -12,6 +13,8 @@ public class playermove : MonoBehaviour
     public float lowJumpMultiplier = 1f;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+    public Animator animatorhit;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,4 +72,7 @@ public class playermove : MonoBehaviour
             }
         }
     }
+
+    
+
 }
