@@ -20,6 +20,9 @@ public class PlayerMoveJoystick : MonoBehaviour
     public Animator animator;
     public Animator animatorhit;
 
+    public GameObject DustLeft;
+    public GameObject DustRight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -78,7 +81,9 @@ public class PlayerMoveJoystick : MonoBehaviour
     {
         horizontalMove = joystick.Horizontal * runSpeedHorizontal;
         transform.position += new Vector3(horizontalMove, 0, 0) * Time.deltaTime * runSpeed;
-       
+
+        
+
     }
 
     public void Jump()
