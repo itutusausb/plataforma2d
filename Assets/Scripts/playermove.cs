@@ -9,6 +9,7 @@ public class playermove : MonoBehaviour
     public float jumpSpeed = 3;
     public float doubleJumpSpeed = 2.5f;
     private bool canDoubleJump;
+    
 
     Rigidbody2D rigidbody2D;
 
@@ -26,6 +27,7 @@ public class playermove : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        
     }
 
     private void Update()
