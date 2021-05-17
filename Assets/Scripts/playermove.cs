@@ -19,6 +19,9 @@ public class playermove : MonoBehaviour
     public Animator animator;
     public Animator animatorhit;
 
+    public GameObject DustLeft;
+    public GameObject DustRight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -89,17 +92,35 @@ public class playermove : MonoBehaviour
             spriteRenderer.flipX = false;
             animator.SetBool("Run", true);
 
+            if (CheckGround.isGrounded == true)
+            {
+
+                DustLeft.SetActive(true);
+                DustRight.SetActive(false);
+            }
+            
+
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
             rigidbody2D.velocity = new Vector2(-runSpeed, rigidbody2D.velocity.y);
             spriteRenderer.flipX = true;
             animator.SetBool("Run", true);
+
+            if (CheckGround.isGrounded == true)
+            {
+
+                DustLeft.SetActive(false);
+                DustRight.SetActive(true);
+            }
         }
         else
         {
             rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y);
             animator.SetBool("Run", false);
+
+            DustLeft.SetActive(false);
+            DustRight.SetActive(false);
         }
 
         if (betterJump)
