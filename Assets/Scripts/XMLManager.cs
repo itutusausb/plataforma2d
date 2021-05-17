@@ -28,7 +28,7 @@ public class XMLManager : MonoBehaviour{
     {
         XmlSerializer serializer = new XmlSerializer(typeof(FruitManager));
         FileStream stream = new FileStream(Application.dataPath + "/Users/lopob/Documents/GitHub/Platfor2/Assets/Scripts/frutas.xml", FileMode.Open);
-        serializer.Deserialize(stream) as FruitManager);
+        fruitManager = serializer.Deserialize(stream) as FruitManager;
         stream.Close();
     }
 
