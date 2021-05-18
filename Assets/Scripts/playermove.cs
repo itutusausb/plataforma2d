@@ -57,6 +57,8 @@ public class playermove : MonoBehaviour
         {
             animator.SetBool("Jump", true);
             animator.SetBool("Run", false);
+            DustLeft.SetActive(false);
+            DustRight.SetActive(false);
         }
         if (CheckGround.isGrounded == true)
         {
