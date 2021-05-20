@@ -123,6 +123,85 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27389827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27389828}
+  - component: {fileID: 27389830}
+  - component: {fileID: 27389829}
+  m_Layer: 5
+  m_Name: Puntuacion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &27389828
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27389827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1449900345}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -195.70001, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &27389829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27389827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9043206, g: 0.9622642, b: 0.9032574, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Puntos:  0'
+--- !u!222 &27389830
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27389827}
+  m_CullTransparentMesh: 1
 --- !u!1 &83492398
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +291,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 692834929}
     m_Modifications:
+    - target: {fileID: 5075350003986653642, guid: 7dcc059d7cd3f6a41a916a83a4244457, type: 3}
+      propertyPath: puntuacion
+      value: 
+      objectReference: {fileID: 27389829}
     - target: {fileID: 5075350003986653654, guid: 7dcc059d7cd3f6a41a916a83a4244457, type: 3}
       propertyPath: m_Name
       value: Orange_0
@@ -396,6 +479,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8544351062742949766, guid: 79fd4cc912cddc249af92d1c3cfeeefd, type: 3}
+      propertyPath: puntuacion
+      value: 
+      objectReference: {fileID: 27389829}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79fd4cc912cddc249af92d1c3cfeeefd, type: 3}
 --- !u!1 &239149332
@@ -6066,6 +6153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherries_0
       objectReference: {fileID: 0}
+    - target: {fileID: 352344408206256607, guid: 559d9ca84536a38439d691adebd72261, type: 3}
+      propertyPath: puntuacion
+      value: 
+      objectReference: {fileID: 27389829}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 559d9ca84536a38439d691adebd72261, type: 3}
 --- !u!1 &1083591557
@@ -6674,6 +6765,7 @@ RectTransform:
   - {fileID: 155510917}
   - {fileID: 901637603}
   - {fileID: 2078874911}
+  - {fileID: 27389828}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7162,6 +7254,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 692834929}
     m_Modifications:
+    - target: {fileID: 4846903855062167281, guid: 38261665de841454080ccbcb497bbf3a, type: 3}
+      propertyPath: puntuacion
+      value: 
+      objectReference: {fileID: 27389829}
     - target: {fileID: 4846903855062167285, guid: 38261665de841454080ccbcb497bbf3a, type: 3}
       propertyPath: m_Name
       value: Strawberry_0
@@ -7858,6 +7954,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8950540416716335914, guid: 986a1413a8e9fdf419f66bbaa4eaba2e, type: 3}
+      propertyPath: puntuacion
+      value: 
+      objectReference: {fileID: 27389829}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 986a1413a8e9fdf419f66bbaa4eaba2e, type: 3}
 --- !u!1 &2140739306

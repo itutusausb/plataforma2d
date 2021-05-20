@@ -24,6 +24,7 @@ public class FruitManager : MonoBehaviour
         AllfruitCollected();
         totalFruits.text = totalFruitsInLevel.ToString();
         fruitsCollected.text = transform.childCount.ToString();
+
     }
     public void AllfruitCollected()
     {
