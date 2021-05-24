@@ -15,11 +15,11 @@ C:/Users/lopob/Documents/GitHub/Platfor2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63959
+64970
 Successfully changed project path to: C:/Users/lopob/Documents/GitHub/Platfor2
 C:/Users/lopob/Documents/GitHub/Platfor2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,361 +35,315 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004510 seconds.
+Registered in 0.001649 seconds.
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.824 seconds
+- Completed reload, in  1.773 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000714 seconds.
+Registered in 0.000707 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 41.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
+- Completed reload, in  0.863 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1833 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
+Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.8 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2281.
-Total: 1.708000 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.429300 ms  DeleteObjects: 0.066600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet Pieces (16x16).png
-  artifactKey: Guid(44bf90fb9fb70524c87497a99496921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet Pieces (16x16).png using Guid(44bf90fb9fb70524c87497a99496921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece6cd3df554b9c3b890a5540839c455') in 0.131987 seconds
-  Import took 0.134826 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 1.825600 ms (FindLiveObjects: 0.119200 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.612500 ms  DeleteObjects: 0.064600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Hit (44x42).png
-  artifactKey: Guid(99a6f8d881d96d045a18fa94cfb5b914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Hit (44x42).png using Guid(99a6f8d881d96d045a18fa94cfb5b914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54de14a87b9851158b575fd4bee74f6d') in 0.049040 seconds
-  Import took 0.052321 seconds .
+  path: Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Flying (32x32).png
+  artifactKey: Guid(9f8778d0d44049a459735824f24042e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Flying (32x32).png using Guid(9f8778d0d44049a459735824f24042e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcb8357b6f1c0f422dd002b9606318e') in 0.119017 seconds
+  Import took 0.121640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Hit (84x38).png
+  artifactKey: Guid(879f42eb54eb4f8489bc40c802959898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Hit (84x38).png using Guid(879f42eb54eb4f8489bc40c802959898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830e7a4d0a2ce3593399d3537129f19d') in 0.021443 seconds
+  Import took 0.026863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Hit (32x32).png
+  artifactKey: Guid(a84745caca919394ea0a3541417402d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Hit (32x32).png using Guid(a84745caca919394ea0a3541417402d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9e2a427190991126f431219cbbac1b') in 0.023749 seconds
+  Import took 0.027060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Idle (84x38).png
+  artifactKey: Guid(43f6bb244a62313438cda197a8e07007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Idle (84x38).png using Guid(43f6bb244a62313438cda197a8e07007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df636eaf205c57b3e998a755661abe23') in 0.055114 seconds
+  Import took 0.058583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump (36x36).png
+  artifactKey: Guid(38cb56d15dc28c34eaf4da30ab64c8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump (36x36).png using Guid(38cb56d15dc28c34eaf4da30ab64c8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc591ff6d7cd18df4f56a66d58010af') in 0.015581 seconds
+  Import took 0.018485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Run (84x38).png
+  artifactKey: Guid(5c876d5b9f3c75b409e35030dd07bc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Run (84x38).png using Guid(5c876d5b9f3c75b409e35030dd07bc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0b0397812379d59e4952648d28fbcc') in 0.036033 seconds
+  Import took 0.039185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Fall (36x36).png
+  artifactKey: Guid(b66d3ed271c328c4b9084c2e0bdb616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Fall (36x36).png using Guid(b66d3ed271c328c4b9084c2e0bdb616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6075cba11a38871a8f5b850c8945dd31') in 0.012131 seconds
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Idle (36x36).png
+  artifactKey: Guid(35e086690f09c9f46aa162a5be5a4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Idle (36x36).png using Guid(35e086690f09c9f46aa162a5be5a4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9122099d342294cf96ec8c92ab520a1') in 0.047646 seconds
+  Import took 0.051549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Attack (84x38).png
+  artifactKey: Guid(9d3a57bf16487764588287654b487d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Attack (84x38).png using Guid(9d3a57bf16487764588287654b487d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c7277649d0b9e201d1df6e082a2a6c') in 0.044594 seconds
+  Import took 0.050653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump Anticipation (36x36).png
+  artifactKey: Guid(424cf879be82f4745858acac29c12ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump Anticipation (36x36).png using Guid(424cf879be82f4745858acac29c12ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a168fe2dc8a74e979145d695c2737506') in 0.028909 seconds
+  Import took 0.034634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Hit (36x36).png
+  artifactKey: Guid(b6fb0d541d6e4e54face92c6a2e56a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Hit (36x36).png using Guid(b6fb0d541d6e4e54face92c6a2e56a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b79338df1cfc47f6d415e19026fd0f') in 0.026749 seconds
+  Import took 0.032479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.518031 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Rino/Hit (52x34).png
+  artifactKey: Guid(0d45a0d8b949d0a4e9eafdc24f22ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rino/Hit (52x34).png using Guid(0d45a0d8b949d0a4e9eafdc24f22ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab4ff3b8fe53274825522cbc877761d') in 0.019180 seconds
+  Import took 0.021591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Rino/Hit Wall (52x34).png
+  artifactKey: Guid(af986635e8356a644a7348f570cd3579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rino/Hit Wall (52x34).png using Guid(af986635e8356a644a7348f570cd3579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b8abb218b27ff62916f59949bf9229') in 0.028098 seconds
+  Import took 0.030819 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000313 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Attack (44x42).png
-  artifactKey: Guid(f85ccb91ff4f71d44808845949b0798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Attack (44x42).png using Guid(f85ccb91ff4f71d44808845949b0798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def693b4fa85a6d08bab79127dc6e6b2') in 0.062174 seconds
-  Import took 0.065818 seconds .
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Rino/Idle (52x34).png
+  artifactKey: Guid(e3531be27cb827743bac8ea66dae5bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rino/Idle (52x34).png using Guid(e3531be27cb827743bac8ea66dae5bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ff4c344a098b48955f2bb3a070fb69') in 0.057119 seconds
+  Import took 0.062230 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Idle (44x42).png
-  artifactKey: Guid(326dd6eeaa0ca144ca01194dbacf63fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Idle (44x42).png using Guid(326dd6eeaa0ca144ca01194dbacf63fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23caa07bff1addf24ab1adc15c1972c2') in 0.069140 seconds
-  Import took 0.071839 seconds .
+  Time since last request: 0.000344 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Rino/Run (52x34).png
+  artifactKey: Guid(5f6e4279b73f74146bcf36013201d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rino/Run (52x34).png using Guid(5f6e4279b73f74146bcf36013201d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b36f888ff73415db05405441a2df426') in 0.033158 seconds
+  Import took 0.035586 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet.png
-  artifactKey: Guid(d700391178f61c3488cd257e7e7a81bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet.png using Guid(d700391178f61c3488cd257e7e7a81bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23b1ee1ab99ea0dd613066ff9c1c19b') in 0.030305 seconds
-  Import took 0.032860 seconds .
+  Time since last request: 1.542057 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Hit (32x34).png
+  artifactKey: Guid(23316aba36e680643b65700c107f2b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Hit (32x34).png using Guid(23316aba36e680643b65700c107f2b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88f5ca21c594a96dc0783c4b133a4d2') in 0.014151 seconds
+  Import took 0.019078 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 653.636426 seconds.
-  path: Assets/Scripts/Enemies/PlantEnemy.cs
-  artifactKey: Guid(27c744d808e07584589308a0c46c6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/PlantEnemy.cs using Guid(27c744d808e07584589308a0c46c6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7dd24ba9f87c2c8cb86c17f02bfed3') in 0.007623 seconds
-  Import took 0.015898 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Idle (32x34).png
+  artifactKey: Guid(f729d6acae7cd754a864abda75a4bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Idle (32x34).png using Guid(f729d6acae7cd754a864abda75a4bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d3cd922a775139dde5dce21e96b8f3') in 0.058540 seconds
+  Import took 0.060911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Run (32x34).png
+  artifactKey: Guid(505531a920a60324aa02b4ed57eba7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Run (32x34).png using Guid(505531a920a60324aa02b4ed57eba7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd1bc45b5bf4a71a69c5a4d7533a7ec') in 0.061586 seconds
+  Import took 0.063921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.308739 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 1 (36x30).png
+  artifactKey: Guid(badf6f9cf3e259c47a2031211fdf1867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 1 (36x30).png using Guid(badf6f9cf3e259c47a2031211fdf1867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faddb77293fa8fb002e44fcfcf5f5b43') in 0.020371 seconds
+  Import took 0.023232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Walk (36x30).png
+  artifactKey: Guid(3315bdad18a105d49a220419bb2c813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Walk (36x30).png using Guid(3315bdad18a105d49a220419bb2c813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1128fe0537da002cac8c790098bc4b7b') in 0.064577 seconds
+  Import took 0.066957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Idle (36x30).png
+  artifactKey: Guid(bb22e9cd7a3f50c41aa55c47dd8c2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Idle (36x30).png using Guid(bb22e9cd7a3f50c41aa55c47dd8c2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a4873312f8069e263bfeb2f41872c1') in 0.053856 seconds
+  Import took 0.060106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Run (36x30).png
+  artifactKey: Guid(6991e54fe8bb5724bafb4aba16583d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Run (36x30).png using Guid(6991e54fe8bb5724bafb4aba16583d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1783f063a15880784bbcfb938f21145c') in 0.056554 seconds
+  Import took 0.060424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 2 (36x30).png
+  artifactKey: Guid(2083775e9a6509343b255038448305be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 2 (36x30).png using Guid(2083775e9a6509343b255038448305be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b0da39264004aca1a5411c6a2df4e') in 0.036023 seconds
+  Import took 0.039904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004384 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 2 (36x30).png
+  artifactKey: Guid(2083775e9a6509343b255038448305be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 2 (36x30).png using Guid(2083775e9a6509343b255038448305be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b0da39264004aca1a5411c6a2df4e') in 0.039182 seconds
+  Import took 0.045066 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001050 seconds.
+Registered in 0.000775 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
+- Completed reload, in  0.833 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2298.
-Total: 1.544200 ms (FindLiveObjects: 0.150800 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.333300 ms  DeleteObjects: 0.018400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000830 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2302.
-Total: 1.950700 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.648800 ms  DeleteObjects: 0.020300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.287835 seconds.
-  path: Assets/Scripts/Enemies/PlantEnemy.cs
-  artifactKey: Guid(27c744d808e07584589308a0c46c6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/PlantEnemy.cs using Guid(27c744d808e07584589308a0c46c6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ecbf1b647039c7b9987de10dfd9932') in 0.003638 seconds
-  Import took 0.007967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 249.860685 seconds.
-  path: Assets/Scripts/Enemies/Plant
-  artifactKey: Guid(741627cc5ef59e442b6672265ecc4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/Plant using Guid(741627cc5ef59e442b6672265ecc4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb48fac34e80933acecebb4c26a9e5d5') in 0.002184 seconds
-  Import took 0.006368 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001464 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2306.
-Total: 1.685700 ms (FindLiveObjects: 0.126100 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.509800 ms  DeleteObjects: 0.017500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.409158 seconds.
-  path: Assets/Scripts/Enemies/Plant/BulletPlant.cs
-  artifactKey: Guid(577d29b15d4ac3344b0ff226671cdda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/Plant/BulletPlant.cs using Guid(577d29b15d4ac3344b0ff226671cdda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5090d20c1a6f7a59780aaf118db12e1d') in 0.006201 seconds
-  Import took 0.009699 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000750 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.3 MB.
 System memory in use after: 88.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2311.
-Total: 2.101000 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.659900 ms  DeleteObjects: 0.020200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 1.815900 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.056300 ms MarkObjects: 1.570400 ms  DeleteObjects: 0.029200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000977 seconds.
+Registered in 0.000809 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 5.165300 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.046100 ms MarkObjects: 4.725500 ms  DeleteObjects: 0.042000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 270.501221 seconds.
-  path: Assets/Scripts/Enemies/Plant/BulletPlant.cs
-  artifactKey: Guid(577d29b15d4ac3344b0ff226671cdda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/Plant/BulletPlant.cs using Guid(577d29b15d4ac3344b0ff226671cdda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04a5b75ec1add6863b46c39be90731f') in 0.005104 seconds
-  Import took 0.011749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.357194 seconds.
-  path: Assets/Prefaps/Plant
-  artifactKey: Guid(6ab901e99be35a44e9245f7d33aafa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/Plant using Guid(6ab901e99be35a44e9245f7d33aafa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4770e1714eae92abcbae68982422ea59') in 0.003062 seconds
-  Import took 0.007771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.100709 seconds.
-  path: Assets/Prefaps/Plant/Bullet.prefab
-  artifactKey: Guid(7078c73ae6a4aa44aa45f93f0979b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/Plant/Bullet.prefab using Guid(7078c73ae6a4aa44aa45f93f0979b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aad1e878be56ef3c56ff1a31edc67ec') in 0.060594 seconds
-  Import took 0.063448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006443 seconds.
-  path: Assets/Prefaps/Plant/Bullet.prefab
-  artifactKey: Guid(7078c73ae6a4aa44aa45f93f0979b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/Plant/Bullet.prefab using Guid(7078c73ae6a4aa44aa45f93f0979b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aad1e878be56ef3c56ff1a31edc67ec') in 0.010033 seconds
-  Import took 0.012590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 155.100707 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations
-  artifactKey: Guid(ddea8f74b53baf646be304d51db8988e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations using Guid(ddea8f74b53baf646be304d51db8988e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302b93c45b99831619e791bee5404526') in 0.002360 seconds
-  Import took 0.005254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.978399 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations/Hit (44x42)_0.controller
-  artifactKey: Guid(31a63ae95e57d55479ea891452c9fb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations/Hit (44x42)_0.controller using Guid(31a63ae95e57d55479ea891452c9fb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee0bce4407dedfb4fb51937d7fe68d7') in 0.007945 seconds
-  Import took 0.012782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.445033 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations/Attack (44x42)_0.controller
-  artifactKey: Guid(14e33277c99c6944a82fb4697557e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations/Attack (44x42)_0.controller using Guid(14e33277c99c6944a82fb4697557e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e28caa7f008adb7f76631e734225cd') in 0.002571 seconds
-  Import took 0.007126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.783955 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations/Idle (44x42)_0.controller
-  artifactKey: Guid(6c75bbf243047c44eade0b29a0f88bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Animations/Idle (44x42)_0.controller using Guid(6c75bbf243047c44eade0b29a0f88bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc6c58e2f4ad42e48b6f5a28e3d034f') in 0.002305 seconds
-  Import took 0.005124 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001131 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 4.487700 ms (FindLiveObjects: 1.004700 ms CreateObjectMapping: 0.134900 ms MarkObjects: 3.318600 ms  DeleteObjects: 0.024300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001432 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.721 seconds
+- Completed reload, in  0.740 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2328.
-Total: 2.340100 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.038900 ms MarkObjects: 2.117900 ms  DeleteObjects: 0.021900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 1.452200 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.259400 ms  DeleteObjects: 0.011800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001259 seconds.
+Registered in 0.000705 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.880 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.4 MB.
 System memory in use after: 88.5 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2332.
-Total: 1.966300 ms (FindLiveObjects: 0.229000 ms CreateObjectMapping: 0.085000 ms MarkObjects: 1.630600 ms  DeleteObjects: 0.019500 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 1.855600 ms (FindLiveObjects: 0.294500 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.475400 ms  DeleteObjects: 0.016100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 544.326880 seconds.
-  path: Assets/Prefaps/Plant/Plant.prefab
-  artifactKey: Guid(09aa7d1341572624494fe512218cdc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/Plant/Plant.prefab using Guid(09aa7d1341572624494fe512218cdc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Idle (44x42)_0) you have used is not valid. Animations will not play
+  Time since last request: 1156.534551 seconds.
+  path: Assets/Prefaps/Props
+  artifactKey: Guid(675450c158d51974aa7d5ff04dff326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props using Guid(675450c158d51974aa7d5ff04dff326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5092f672523673839143a0188945dee2') in 0.005286 seconds
+  Import took 0.008792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.863508 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherHalf.prefab
+  artifactKey: Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherHalf.prefab using Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
 UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -402,7 +356,7 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
 
-The Animator Controller (Idle (44x42)_0) you have used is not valid. Animations will not play
+The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
 UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
@@ -414,15 +368,81 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
 
- -> (artifact id: 'ab65f3b62a5557f82751dc03707f9abf') in 0.071160 seconds
-  Import took 0.074339 seconds .
+ -> (artifact id: '94a352660a8a56e19edc8566e614e552') in 0.064397 seconds
+  Import took 0.067430 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2334.
+Total: 1.796100 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.585100 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 1.834600 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.625000 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 1.818200 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.052900 ms MarkObjects: 1.550300 ms  DeleteObjects: 0.014900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003501 seconds.
-  path: Assets/Prefaps/Plant/Plant.prefab
-  artifactKey: Guid(09aa7d1341572624494fe512218cdc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/Plant/Plant.prefab using Guid(09aa7d1341572624494fe512218cdc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Idle (44x42)_0) you have used is not valid. Animations will not play
+  Time since last request: 592.657652 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherHalf.prefab
+  artifactKey: Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherHalf.prefab using Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
 UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -435,7 +455,7 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
 
-The Animator Controller (Idle (44x42)_0) you have used is not valid. Animations will not play
+The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
 UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
@@ -447,21 +467,54 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
 
- -> (artifact id: 'ab65f3b62a5557f82751dc03707f9abf') in 0.018476 seconds
-  Import took 0.021713 seconds .
+ -> (artifact id: '174532fff4367a60911fd6f3eaccffb4') in 0.068982 seconds
+  Import took 0.072737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004692 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherHalf.prefab
+  artifactKey: Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherHalf.prefab using Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '174532fff4367a60911fd6f3eaccffb4') in 0.014944 seconds
+  Import took 0.017683 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000645 seconds.
+Registered in 0.000730 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.778 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -469,57 +522,79 @@ Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.6 MB.
 System memory in use after: 88.7 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 1.822500 ms (FindLiveObjects: 0.152800 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.599100 ms  DeleteObjects: 0.032600 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 1.888400 ms (FindLiveObjects: 0.152800 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.658100 ms  DeleteObjects: 0.035100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.879898 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherHalf.prefab
+  artifactKey: Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherHalf.prefab using Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (SpikedFatherHalf) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5cbc215ef2ff8981b299f6befb9fbf5a') in 0.060409 seconds
+  Import took 0.064439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.516849 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete.prefab
+  artifactKey: Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete.prefab using Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SpikedFatherComplete) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (SpikedFatherComplete) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '042d8a172b5d55c915acb7022d612a0b') in 0.018641 seconds
+  Import took 0.021481 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001417 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.780 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2341.
-Total: 1.861400 ms (FindLiveObjects: 0.291200 ms CreateObjectMapping: 0.064100 ms MarkObjects: 1.489700 ms  DeleteObjects: 0.015300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000971 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2345.
-Total: 1.897400 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.484400 ms  DeleteObjects: 0.032800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000728 seconds.
+Registered in 0.000692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
@@ -527,29 +602,7 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2349.
-Total: 2.556700 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.033200 ms MarkObjects: 2.339400 ms  DeleteObjects: 0.025700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000689 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.726 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -557,7 +610,669 @@ Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.6 MB.
 System memory in use after: 88.7 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2353.
-Total: 2.929700 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.058000 ms MarkObjects: 2.590300 ms  DeleteObjects: 0.056700 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 1.608800 ms (FindLiveObjects: 0.180600 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.343600 ms  DeleteObjects: 0.027700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 1.684100 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.452100 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 1.637300 ms (FindLiveObjects: 0.287100 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.262000 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.945002 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete.prefab
+  artifactKey: Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete.prefab using Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SpikedFatherComplete) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (SpikedFatherComplete) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'ea81b73ca6a7d61d43474aadfe6e3ca0') in 0.060507 seconds
+  Import took 0.063220 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 1.921700 ms (FindLiveObjects: 0.266300 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.575900 ms  DeleteObjects: 0.028200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 1.673400 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.453900 ms  DeleteObjects: 0.013600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.235282 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete.prefab
+  artifactKey: Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete.prefab using Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SpikedFatherComplete) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (SpikedFatherComplete) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '40ce8df1a48176a46785673366d49af1') in 0.061074 seconds
+  Import took 0.064164 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 1.718400 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.453400 ms  DeleteObjects: 0.042300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 1.697800 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.491200 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 4.268000 ms (FindLiveObjects: 1.159800 ms CreateObjectMapping: 0.164900 ms MarkObjects: 2.893300 ms  DeleteObjects: 0.039400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 2.013200 ms (FindLiveObjects: 0.322600 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.613600 ms  DeleteObjects: 0.030500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2390.
+Total: 1.770000 ms (FindLiveObjects: 0.173300 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.534300 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 1.790800 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.061700 ms MarkObjects: 1.468400 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2398.
+Total: 2.076500 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.864100 ms  DeleteObjects: 0.029800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76168.401039 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Spiked Ball.controller
+  artifactKey: Guid(0b58dbcf730954243a8d09796cd164ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Spiked Ball.controller using Guid(0b58dbcf730954243a8d09796cd164ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689eb3354f78dac764963d32a6aa9a3a') in 0.025897 seconds
+  Import took 0.029809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.266298 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedFatherHalf.controller
+  artifactKey: Guid(613505cece112334cacacef3d2c78f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedFatherHalf.controller using Guid(613505cece112334cacacef3d2c78f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23972ef27459854101848067a01aa7a') in 0.006050 seconds
+  Import took 0.008936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.483801 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim
+  artifactKey: Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim using Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770d4addb91cb08199bf1e1837460481') in 0.005609 seconds
+  Import took 0.008482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002144 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim
+  artifactKey: Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim using Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770d4addb91cb08199bf1e1837460481') in 0.003768 seconds
+  Import took 0.008616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 834.631092 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherHalf.prefab
+  artifactKey: Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherHalf.prefab using Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341dc20b3c21d0911d1ed03fcac7a723') in 0.093328 seconds
+  Import took 0.097963 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 1.794400 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.590400 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.695227 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherHalf.prefab
+  artifactKey: Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherHalf.prefab using Guid(3546b4c9be15a9b4dbdd7cbc644b0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df501988e08e0f2721b685444fb054b') in 0.064756 seconds
+  Import took 0.067551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.012214 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete Variant.prefab
+  artifactKey: Guid(4dbc1955b5485a24fbf60fa6e98a358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete Variant.prefab using Guid(4dbc1955b5485a24fbf60fa6e98a358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5328fe62cca58c1fe92cd2091a07050f') in 0.025267 seconds
+  Import took 0.028905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007266 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete Variant.prefab
+  artifactKey: Guid(4dbc1955b5485a24fbf60fa6e98a358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete Variant.prefab using Guid(4dbc1955b5485a24fbf60fa6e98a358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5328fe62cca58c1fe92cd2091a07050f') in 0.013605 seconds
+  Import took 0.016580 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 1.948900 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.745400 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 2.128000 ms (FindLiveObjects: 0.329500 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.701300 ms  DeleteObjects: 0.040300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.251616 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete.prefab
+  artifactKey: Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete.prefab using Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496dd3b2e8ada9b84bf3cf5811b77c07') in 0.065274 seconds
+  Import took 0.069331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005283 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete.prefab
+  artifactKey: Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete.prefab using Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496dd3b2e8ada9b84bf3cf5811b77c07') in 0.010518 seconds
+  Import took 0.015512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2417.
+Total: 1.650700 ms (FindLiveObjects: 0.137700 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.462100 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2421.
+Total: 2.327800 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.030800 ms  DeleteObjects: 0.059400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.000769 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete.prefab
+  artifactKey: Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete.prefab using Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2963d6fdd78f3e4e5345d7f0a947d4d') in 0.062711 seconds
+  Import took 0.069314 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2426.
+Total: 1.680800 ms (FindLiveObjects: 0.163500 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.466000 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.537698 seconds.
+  path: Assets/Prefaps/Props/SpikedFatherComplete.prefab
+  artifactKey: Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefaps/Props/SpikedFatherComplete.prefab using Guid(81ce8475b8c233b4da69d014f4912dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c757431781b8d9234ed76b48cbff01dd') in 0.061511 seconds
+  Import took 0.065499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 1.617700 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.418700 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2435.
+Total: 1.833100 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.526200 ms  DeleteObjects: 0.018700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2439.
+Total: 1.747300 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.549500 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.528411 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim
+  artifactKey: Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim using Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8db53b1eb69afa2773b08f847043047') in 0.016518 seconds
+  Import took 0.019818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002060 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim
+  artifactKey: Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/SpikedHalf.anim using Guid(eb0f7a8667e142844809cfd8ab0e44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8db53b1eb69afa2773b08f847043047') in 0.001929 seconds
+  Import took 0.005004 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2443.
+Total: 1.624500 ms (FindLiveObjects: 0.153800 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.416500 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2447.
+Total: 1.591000 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.392600 ms  DeleteObjects: 0.016000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
