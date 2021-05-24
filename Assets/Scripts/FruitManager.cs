@@ -8,23 +8,9 @@ public class FruitManager : MonoBehaviour
 { 
     public Text levelCleared;
 
-    public Text totalFruits;
-
-    public Text fruitsCollected;
-
-    private int totalFruitsInLevel;
-
-    private void Start()
-    {
-        totalFruitsInLevel = transform.childCount;
-    }
-
     private void Update()
     {
         AllfruitCollected();
-        totalFruits.text = totalFruitsInLevel.ToString();
-        fruitsCollected.text = transform.childCount.ToString();
-
     }
     public void AllfruitCollected()
     {

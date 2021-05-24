@@ -1,14 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class FruitCollected : MonoBehaviour
 {
-    int contador;
-    Rigidbody rb;
-    public Text puntuacion;
-
+    public AudioSource clip;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")) // si colision se compara con el tag del player
@@ -18,29 +15,7 @@ public class FruitCollected : MonoBehaviour
             gameObject.transform.GetChild(0).gameObject.SetActive(true); // cogemos el gameobject hijo de la posicion 0 y activamos la animacion
             
             Destroy(gameObject, 0.5f); // se destruye el objeto en 0.5 segundos
-            contador = contador + 10;
-            puntuacion.text = "Puntos: " + contador;
+            clip.Play();
         }
-
     }
-
-    public void Awake()
-    {
-        rb = GetComponent<Rigidbody>();
-        contador = 0;
-        puntuacion.text = "Puntos: " + contador;
-        
-    }
-
-
-
-
-
-
-
-
-
-
-
 }
-
