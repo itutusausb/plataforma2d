@@ -19,6 +19,8 @@ public class PlayerMoveJoystick : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Animator animator;
     public Animator animatorhit;
+    public GameObject DustLeft;
+    public GameObject DustRight;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +35,8 @@ public class PlayerMoveJoystick : MonoBehaviour
             //rigidbody2D.velocity = new Vector2(runSpeed, rigidbody2D.velocity.y);
             spriteRenderer.flipX = false;
             animator.SetBool("Run", true);
+            DustLeft.SetActive(true);
+            DustRight.SetActive(false);
 
         }
         else if (horizontalMove<0)
@@ -40,11 +44,15 @@ public class PlayerMoveJoystick : MonoBehaviour
             //rigidbody2D.velocity = new Vector2(-runSpeed, rigidbody2D.velocity.y);
             spriteRenderer.flipX = true;
             animator.SetBool("Run", true);
+            DustLeft.SetActive(false);
+            DustRight.SetActive(true);
         }
         else
         {
             //rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y);
             animator.SetBool("Run", false);
+            DustLeft.SetActive(false);
+            DustRight.SetActive(false);
         }
 
 
@@ -52,6 +60,8 @@ public class PlayerMoveJoystick : MonoBehaviour
         {
             animator.SetBool("Jump", true);
             animator.SetBool("Run", false);
+            DustLeft.SetActive(false);
+            DustRight.SetActive(false);
         }
         if (CheckGround.isGrounded == true)
         {
