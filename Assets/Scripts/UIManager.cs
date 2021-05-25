@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-
+    public AudioSource clip;
     public GameObject optionsPanel;
 
     public void OptionsPanel()
@@ -39,5 +39,9 @@ public class UIManager : MonoBehaviour
     public void QuitGame() 
     {
         Application.Quit(); //para salir cuando generemos el ejecutable o la APK
+    }
+    public void PlaySoundButton()
+    {
+        clip.Play();
     }
 }
