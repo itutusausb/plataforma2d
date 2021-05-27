@@ -1282,3 +1282,4 @@ Received Import Request.
 Start importing Assets/Images/fondo_main.PNG using Guid(14229aaf087f97841988c52fb91824e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7ae9fa6408051b2b60abe47dcb38ce') in 0.006122 seconds
   Import took 0.008577 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
