@@ -7650,6 +7650,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 667156205}
+--- !u!1001 &3373521071857349010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3373521072952757526, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 667156205}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6697
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073473645251, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_Name
+      value: BlueBirdFather
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
 --- !u!1001 &4383847374682617726
 PrefabInstance:
   m_ObjectHideFlags: 0
