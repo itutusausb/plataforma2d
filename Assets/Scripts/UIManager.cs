@@ -25,9 +25,8 @@ public class UIManager : MonoBehaviour
 
     public void AnotherOptions()
     {
-        //sound
-        //graphics
 
+        SceneManager.LoadScene("Options");
     }
 
     public void GoMainMenu()

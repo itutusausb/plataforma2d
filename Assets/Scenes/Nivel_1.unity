@@ -7661,6 +7661,30 @@ PrefabInstance:
       propertyPath: clip
       value: 
       objectReference: {fileID: 667156205}
+    - target: {fileID: 3373521072952757527, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_Size.x
+      value: 0.29671234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521072952757527, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_Size.y
+      value: 0.20354927
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521072952757527, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0027708188
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521072952757527, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.013696805
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073334279120, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_Size.x
+      value: 0.29894036
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373521073334279120, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0008181408
+      objectReference: {fileID: 0}
     - target: {fileID: 3373521073473645248, guid: d06d9241f58638048a75a0640aeccfcc, type: 3}
       propertyPath: m_RootOrder
       value: 16
