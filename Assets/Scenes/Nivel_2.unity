@@ -346,6 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeaf7f5dc30d4f144b8ad8b3129516bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hearts: []
   animator: {fileID: 254171344}
 --- !u!114 &254171341
 MonoBehaviour:
@@ -368,6 +369,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 254171345}
   animator: {fileID: 254171344}
   animatorhit: {fileID: 0}
+  DustLeft: {fileID: 0}
+  DustRight: {fileID: 0}
 --- !u!50 &254171342
 Rigidbody2D:
   serializedVersion: 4
