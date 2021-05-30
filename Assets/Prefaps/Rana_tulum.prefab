@@ -175,6 +175,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 613428497279283821}
   animator: {fileID: 613428497279283818}
   animatorhit: {fileID: 0}
+  DustLeft: {fileID: 0}
+  DustRight: {fileID: 0}
 --- !u!114 &613428497279283824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +189,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeaf7f5dc30d4f144b8ad8b3129516bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   animator: {fileID: 613428497279283818}
 --- !u!1 &613428497733434836
 GameObject:
