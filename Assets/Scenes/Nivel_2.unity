@@ -682,7 +682,7 @@ PrefabInstance:
       objectReference: {fileID: 502878440}
     - target: {fileID: 613428497279283825, guid: b52a6f93d4704cb4aa01e529134e3ae1, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b52a6f93d4704cb4aa01e529134e3ae1, type: 3}
@@ -6128,6 +6128,10 @@ PrefabInstance:
     - target: {fileID: 1896482018882646990, guid: c4868419e5fd33743bb95de23b5f1d7b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 675297250}
+    - target: {fileID: 1896482018882646990, guid: c4868419e5fd33743bb95de23b5f1d7b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Jump
       objectReference: {fileID: 0}
     - target: {fileID: 1896482019243584941, guid: c4868419e5fd33743bb95de23b5f1d7b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -6507,6 +6511,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8038363771421021649, guid: ca9635e54a44294449c9541748e3d3c9, type: 3}
   m_PrefabInstance: {fileID: 549294602}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &670016092 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3672513112179846334, guid: c4868419e5fd33743bb95de23b5f1d7b, type: 3}
+  m_PrefabInstance: {fileID: 509045187}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &675297249 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 613428497279283819, guid: b52a6f93d4704cb4aa01e529134e3ae1, type: 3}
@@ -6519,12 +6534,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675297249}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 314044a27dc2fa84982f367659f04202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystick: {fileID: 0}
+  joystick: {fileID: 670016092}
   runSpeed: 1.25
   jumpSpeed: 3
   doubleJumpSpeed: 2.5
