@@ -302,7 +302,7 @@ MonoBehaviour:
   joystick: {fileID: 2071591380}
   runSpeed: 1.25
   jumpSpeed: 3
-  doubleJumpSpeed: 2.5
+  doubleJumpSpeed: 3
   spriteRenderer: {fileID: 170045668}
   animator: {fileID: 170045667}
   animatorhit: {fileID: 0}
@@ -5855,7 +5855,7 @@ PrefabInstance:
       objectReference: {fileID: 2005525438}
     - target: {fileID: 613428497279283825, guid: b52a6f93d4704cb4aa01e529134e3ae1, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 613428497279283825, guid: b52a6f93d4704cb4aa01e529134e3ae1, type: 3}
       propertyPath: doubleJumpSpeed
@@ -7558,6 +7558,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 170045662}
+    - target: {fileID: 3672513112495451977, guid: c4868419e5fd33743bb95de23b5f1d7b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672513112495451977, guid: c4868419e5fd33743bb95de23b5f1d7b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7296992241992377638, guid: c4868419e5fd33743bb95de23b5f1d7b, type: 3}
       propertyPath: m_Name
       value: Canvas

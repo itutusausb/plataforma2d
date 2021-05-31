@@ -391,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 698615897}
     - target: {fileID: 613428497279283825, guid: b52a6f93d4704cb4aa01e529134e3ae1, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 613428497279283825, guid: b52a6f93d4704cb4aa01e529134e3ae1, type: 3}
       propertyPath: doubleJumpSpeed
@@ -434,7 +434,7 @@ MonoBehaviour:
   joystick: {fileID: 1456002239}
   runSpeed: 1.25
   jumpSpeed: 3
-  doubleJumpSpeed: 2.5
+  doubleJumpSpeed: 3
   spriteRenderer: {fileID: 29750733}
   animator: {fileID: 29750732}
   animatorhit: {fileID: 0}
